@@ -5,5 +5,5 @@ gem 'rake'
 
 group :test do
   gem 'capybara'
-  gem 'spinach'
+  gem 'spinach', git: 'https://github.com/codegram/spinach'
 end
