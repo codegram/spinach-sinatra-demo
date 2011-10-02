@@ -1,5 +1,5 @@
 # Spinach Sinatra Demo
-A small demo of spinach testing a sinatra demo
+A small demo of spinach testing a bare sinatra app
 
 ## Usage
 
