@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/codegram/spinach
-  revision: f2ee575c405cc15fe3c2e565ca9ca31ba8e19a9f
-  specs:
-    spinach (0.0.6)
-      colorize
-      gherkin
-      hooks
-      minitest
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -24,7 +14,7 @@ GEM
     ffi (1.0.9)
     gherkin (2.5.1)
       json (>= 1.4.6)
-    hooks (0.1.4)
+    hooks (0.2.0)
     json (1.6.1)
     json_pure (1.6.1)
     mime-types (1.16)
@@ -42,7 +32,12 @@ GEM
       rubyzip
     sinatra (1.2.6)
       rack (~> 1.1)
-      tilt (< 2.0, >= 1.2.2)
+      tilt (>= 1.2.2, < 2.0)
+    spinach (0.1.0)
+      colorize
+      gherkin
+      hooks
+      minitest
     tilt (1.3.3)
     xpath (0.1.4)
       nokogiri (~> 1.3)
@@ -54,4 +49,4 @@ DEPENDENCIES
   capybara
   rake
   sinatra
-  spinach!
+  spinach
