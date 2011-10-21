@@ -1,5 +1,4 @@
-class Test < Spinach::Feature
-  feature "Application test"
+class ApplicationTest < Spinach::FeatureSteps
 
   Given "I am on the front page" do
     visit '/'
@@ -16,4 +15,5 @@ class Test < Spinach::Feature
   Then "I should see goodbye" do
     page.has_content?("Goodbye").must_equal true
   end
+
 end
